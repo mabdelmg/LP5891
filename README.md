@@ -3,6 +3,7 @@ Overview
 This project demonstrates communication between a microcontroller acting as an SPI slave and a matrix LED display. 
 The communication involves sending data frames using SPI, generating a clock signal with a timer 
 (where the timer pin is connected to the SPI CLK pin), and utilizing a GPIO pin to trigger the Chip Select (CS) pin.
+This code is built over an example of Infenion sdk to blink led 
 
 Requirements
 
